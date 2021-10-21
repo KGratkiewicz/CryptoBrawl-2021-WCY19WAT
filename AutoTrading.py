@@ -35,7 +35,7 @@ class AutoTrading:
         self.amountSell = float(amountBuy)/float(targetBuyPrice)
         if str.upper(currency) == "BTC":
             self.currency = Currency.BTC
-        elif upper(currency) == "ETH":
+        elif str.upper(currency) == "ETH":
             self.currency = Currency.ETH
         else:
             print("There is no "+currency+" currency...")

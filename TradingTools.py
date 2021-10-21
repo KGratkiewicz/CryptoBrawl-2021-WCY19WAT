@@ -21,7 +21,7 @@ class Account:
         self.webside.setList(self.webside.idSellList, currencyToSell)
         self.webside.setList(self.webside.idBuyList, currencyToBuy)
         self.webside.insetStringIntoForm(self.webside.idAmount, amount)
-        # self.webside.cklickButton(self.webside.xpathComfirmTransactionButton)
+        self.webside.cklickButton(self.webside.xpathComfirmTransactionButton)
 
 
     def update(self):

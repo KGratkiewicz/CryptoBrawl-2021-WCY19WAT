@@ -9,17 +9,17 @@ Konkurs został podzielony na 2 etapy, zasadniczy i finałowy.
 
 Zespół studentów z Wojskowej Akademi Technicznej WCY19WAT współtworzyli:
 
--Jakub Grątkiewicz - programista
+[Jakub Grątkiewicz](https://github.com/KGratkiewicz) - programista
 
--Józef Wesołowki - analityk giełdy
+Józef Wesołowki - analityk giełdy
 
--Michał Mojkowski - analityk giełdy
+Michał Mojkowski - analityk giełdy
 
 ## Narzędzia użyte w pierwszym etapie
-Pierwszy etap konkursu spędziliśmy na analizie kursów oraz zależności między giełdą a platformą. Do tego musieliśmy handlować ręcznie. Do ręcznego handlu stworzyliśmy narzędzie pozwalające nam ustawiać zlecenia kupna/sprzedaży. Po wyciągnięciu wniosków rozwinęliśmy program o bota który dokonywał transakcji przy spełnieniu określonych przez nas kryteriów.
+Pierwszy etap konkursu spędziliśmy na analizie kursów oraz zależności między giełdą a platformą. W tym etapie wykonywaliśmy handel ręczny, do którego wsparcia stworzyliśmy narzędzie pozwalające nam ustawiać zlecenia kupna/sprzedaży. Po wyciągnięciu wniosków rozwinęliśmy program o bota który dokonywał transakcji przy spełnieniu określonych przez nas kryteriów.
 
 ## Narzędzia użyte w finałowym etapie
-Zespół określił w pierwszym etapie dwie strategie w ciągu pierwszego tygodnia. Jedną z nich odrzuciliśmy, a drugą zaimplementowaliśmy.
+Zespół określił w pierwszym etapie dwie strategie. Jedną z nich odrzuciliśmy, a drugą zaimplementowaliśmy.
 
 ### Strategia nr 1 - odrzucona
 Strategia ta opierała się na przewidywaniu wzrostów i spadków w początkowej jego fazie. 
@@ -51,13 +51,16 @@ Kolejnym problemem, który napotkał bot było odczytanie jego aktywności jako 
 Aby go rozwiązać musieliśmy zmienić ustawienia systemowe na urządzeniu, na którym bot był uruchamiany.
 
 #### Problemy nierozwiązane
-Bardzo dużym problemem była użyta tachnologia z bibiloteki Selenium. Działała ona poprawnie jednak zdecdowanie za wolno. Nie zawsze udawało się maszynie dokonać zakupu przed zmianą kursu, co zmniejszało zyski uzyskane z transakcji. Program był optymalizowany całą rundę finałową, oraz błędy związane z tym faktem zostały zminimalizowane. Aby całkowicie rozwiązać problem należałoby całkowicie przekształcić program, rezygnując z technologi Selenium. 
+Bardzo dużym problemem była użyta tachnologia z bibiloteki Selenium. Działała ona poprawnie jednak zdecdowanie za wolno. Nie zawsze udawało się maszynie dokonać zakupu przed zmianą kursu, co zmniejszało zyski uzyskane z transakcji. Program był optymalizowany całą rundę finałową więc błędy związane z tym faktem zostały zminimalizowane. Aby całkowicie usunąć problem należałoby całkowicie przekształcić program, rezygnując z technologi Selenium na rzecz czegoś innego.
 
 ### Osiągnięcia oraz podsumowanie
-> Program ten, jest pierwszym moim programem w języku Python. W celu przygotowania się do stworzenia bota, w tyrybie przyspieszonym zapoznałem się z ponad 200 stronami książki [Python dla programistów](https://www.empik.com/python-dla-programistow-big-data-i-ai-studia-przypadkow-deitel-paul-j-deitel-harvey,p1249591285,ksiazka-p). ~JG
+> Program ten, jest pierwszym moim programem w języku Python. W celu przygotowania się do stworzenia bota, w tyrybie przyspieszonym zapoznałem się z ponad 200 stronami książki [Python dla programistów](https://www.empik.com/python-dla-programistow-big-data-i-ai-studia-przypadkow-deitel-paul-j-deitel-harvey,p1249591285,ksiazka-p). 
+Z wykonanej pracy jestem bardzo zadowolony. Konkurs na pewno zainteresował mnie tematem handlu kryptowalutami, pobudził moją kreatywność oraz zmusił do poznania nowych narzędzi technologicznych. Dziękuję również kolegom z zespołu, którzy nie współworzyli ze mną kodu, jednak określili logiczne kryteria kupna i sprzedaż. Współpracując z nimi czułem, że tworzymy zespół i każdy z nas pełni w tym zespole swoją rolę najlepiej jak potrafi. [~JG](https://github.com/KGratkiewicz)
 
-Kluczową rolę w rozwoju programu miały biblioteki języka Python:
-[Selenium](https://selenium-python.readthedocs.io/) - działanie bota (kupno/sprzedaż, ściąganie danych ze stron)
+Program korzystał w swoim działaniu z bibliotek:
+
+[Selenium](https://selenium-python.readthedocs.io/) - działanie bota (kupno/sprzedaż, ściąganie danych ze stron) 
+
 [Pandas](https://pandasguide.readthedocs.io/en/latest/) - analiza oraz testy
 
 

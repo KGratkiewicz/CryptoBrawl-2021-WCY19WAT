@@ -57,11 +57,13 @@ Bardzo dużym problemem była użyta tachnologia z bibiloteki Selenium. Działa�
 > Program ten, jest pierwszym moim programem w języku Python. W celu przygotowania się do stworzenia bota, w tyrybie przyspieszonym zapoznałem się z ponad 200 stronami książki [Python dla programistów](https://www.empik.com/python-dla-programistow-big-data-i-ai-studia-przypadkow-deitel-paul-j-deitel-harvey,p1249591285,ksiazka-p). 
 Z wykonanej pracy jestem bardzo zadowolony. Konkurs na pewno zainteresował mnie tematem handlu kryptowalutami, pobudził moją kreatywność oraz zmusił do poznania nowych narzędzi technologicznych. Dziękuję również kolegom z zespołu, którzy nie współworzyli ze mną kodu, jednak określili logiczne kryteria kupna i sprzedaż. Współpracując z nimi czułem, że tworzymy zespół i każdy z nas pełni w tym zespole swoją rolę najlepiej jak potrafi. [~JG](https://github.com/KGratkiewicz)
 
-Program korzystał w swoim działaniu z bibliotek:
+Ostatecznie nasz zespół zakończył rywalizację na III miejscu z saldem 2.792.419,60$ (income 179,24%).
 
-[Selenium](https://selenium-python.readthedocs.io/) - działanie bota (kupno/sprzedaż, ściąganie danych ze stron) 
+![rysunek5](https://user-images.githubusercontent.com/71324202/140427280-65f0da08-d4c2-4604-a4d6-bd6dcd765567.png)
 
-[Pandas](https://pandasguide.readthedocs.io/en/latest/) - analiza oraz testy
+Zobacz również jaką strategię opracował zespół _Bank Busters_ który zajął I miejsce:
+[Strategia Bank Busters CryptoBrawl 2021](https://github.com/HakierGrzonzo/ibm_cryptobrawl)
+
 
 
 

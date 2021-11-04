@@ -1,5 +1,5 @@
 # CryptoBrawl 2021
-Bot stworzony na konkurs ogranizowany przez IBM Polska [CryptoBrawl](https://cryptobrawl.pl).
+Bot stworzony na konkurs [CryptoBrawl](https://cryptobrawl.pl) ogranizowany przez IBM.
 ## O konkursie i zespole
 
 >Show us what you would do with 1.000.000 USD in just five days when investing in cryptocurrencies.
@@ -15,10 +15,10 @@ Zespół studentów z Wojskowej Akademi Technicznej WCY19WAT współtworzyli:
 
 -Michał Mojkowski - analityk giełdy
 
-## Narzędzia stworzone w pierwszym etapie
+## Narzędzia użyte w pierwszym etapie
 Pierwszy etap konkursu spędziliśmy na analizie kursów oraz zależności między giełdą a platformą. Do tego musieliśmy handlować ręcznie. Do ręcznego handlu stworzyliśmy narzędzie pozwalające nam ustawiać zlecenia kupna/sprzedaży. Po wyciągnięciu wniosków rozwinęliśmy program o bota który dokonywał transakcji przy spełnieniu określonych przez nas kryteriów.
 
-## Narzędzia stworzone w finałowym etapie
+## Narzędzia użyte w finałowym etapie
 Zespół określił w pierwszym etapie dwie strategie w ciągu pierwszego tygodnia. Jedną z nich odrzuciliśmy, a drugą zaimplementowaliśmy.
 
 ### Strategia nr 1 - odrzucona
@@ -54,7 +54,7 @@ Aby go rozwiązać musieliśmy zmienić ustawienia systemowe na urządzeniu, na 
 Bardzo dużym problemem była użyta tachnologia z bibiloteki Selenium. Działała ona poprawnie jednak zdecdowanie za wolno. Nie zawsze udawało się maszynie dokonać zakupu przed zmianą kursu, co zmniejszało zyski uzyskane z transakcji. Program był optymalizowany całą rundę finałową, oraz błędy związane z tym faktem zostały zminimalizowane. Aby całkowicie rozwiązać problem należałoby całkowicie przekształcić program, rezygnując z technologi Selenium. 
 
 ### Osiągnięcia oraz podsumowanie
-> Program ten, jest pierwszym moim programem w języku Python, nie licząc prostych narzędzi analitycznych tworzonych wcześniej w środowisku Conda. W celu przygotowania się do stworzenia bota w tyrybie przyspieszonym zapoznałem się z ponad 200 stronami książki [Python dla programistów](https://www.empik.com/python-dla-programistow-big-data-i-ai-studia-przypadkow-deitel-paul-j-deitel-harvey,p1249591285,ksiazka-p). Zadowolony jestem więc z tego, że udało się tak szybko napisać coś działającego w nowym języku programowania. ~JG
+> Program ten, jest pierwszym moim programem w języku Python. W celu przygotowania się do stworzenia bota, w tyrybie przyspieszonym zapoznałem się z ponad 200 stronami książki [Python dla programistów](https://www.empik.com/python-dla-programistow-big-data-i-ai-studia-przypadkow-deitel-paul-j-deitel-harvey,p1249591285,ksiazka-p). ~JG
 
 Kluczową rolę w rozwoju programu miały biblioteki języka Python:
 [Selenium](https://selenium-python.readthedocs.io/) - działanie bota (kupno/sprzedaż, ściąganie danych ze stron)

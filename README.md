@@ -26,7 +26,7 @@ Na potrzeby konkursu stworzyliśmy oraz rozwijaliśmy oprogramowanie wspomagają
 Pierwszy etap konkursu spędziliśmy na analizie kursów oraz zależności między giełdą a platformą. W tym etapie wykonywaliśmy handel ręczny, do którego wsparcia stworzyliśmy narzędzie pozwalające nam ustawiać zlecenia kupna/sprzedaży. Po wyciągnięciu wniosków rozwinęliśmy program do postaci bota który dokonywał transakcji przy spełnieniu określonych przez nas kryteriów (weak AI).
 
 ### Narzędzia użyte w finałowym etapie
-Zespół w czasie trwania pierwszego etapii określił dwie strategie możliwe do wprowadzenia strategie. Zostały one przetestowane w środowisku testowym, oraz został wyłoniony z nich zwycięzca osiągający lepsze wyniki.
+Zespół w czasie trwania pierwszego etapii określił dwie możliwe do wprowadzenia strategie. Zostały one przetestowane w środowisku testowym, oraz został wyłoniony z nich zwycięzca osiągający lepsze wyniki.
 
 #### Strategia nr 1 - odrzucona
 Strategia ta opierała się na przewidywaniu wzrostów i spadków w ich początkowej fazie. 

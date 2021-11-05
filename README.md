@@ -65,10 +65,13 @@ Bardzo dużym problemem była użyta technologia z bibiloteki Selenium. Działa�
 
 Ostatecznie nasz zespół zakończył rywalizację na III miejscu z saldem 2.792.419,60$ (income 179,24%).
 
+[Wyniki konkursu](https://www.mimuw.edu.pl/wyniki-hackatonu-cryptobrawl)
+
 ![rysunek5](https://user-images.githubusercontent.com/71324202/140427280-65f0da08-d4c2-4604-a4d6-bd6dcd765567.png)
 
 Zobacz również jaką strategię opracował zespół _Bank Busters_ który zajął I miejsce:
 [Strategia Bank Busters CryptoBrawl 2021](https://github.com/HakierGrzonzo/ibm_cryptobrawl)
+
 
 
 

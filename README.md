@@ -5,10 +5,10 @@ Bot stworzony na konkurs [CryptoBrawl](https://cryptobrawl.pl) ogranizowany prze
 ### Przebieg konkursu
 >Show us what you would do with 1.000.000 USD in just five days when investing in cryptocurrencies.
 
-Konkurs polegał na osiągnięciu największego zysku poprzez inwestowanie 1.000.000 $ w kryptowaluty Bitcoin i Etherum. 
+Konkurs polegał na osiągnięciu największego zysku poprzez inwestowanie 1.000.000 $ w kryptowaluty Bitcoin i Ethereum. 
 Konkurs został podzielony na 2 etapy, zasadniczy i finałowy. Każdy etap trwał 5 dni.
 
-Do handlu kryptowalutani została otwarta specjalna platforma, na której każdy z zespołów posiadał początkowo kapitał w wyskokości 1.000.000$. Sekcja trade dopuszczała jedynie transakcje natychmiastowe. Stanowiło to utrudnienie, gdyż bez narzędzi stworzonych samodzielnie, storna wymagała stałego śledzenia kursu i dokonywania transakcji ręcznie. Konkurs zawierając w nazwie słowo _Hackathon_ stawiał wyznwanie stworzenia oprogramowania wspomagającego wykonywanie transakcji.
+Do handlu kryptowalutani została otwarta specjalna platforma, na której każdy z zespołów posiadał początkowo kapitał w wyskokości 1.000.000$. Sekcja trade dopuszczała jedynie transakcje natychmiastowe. Stanowiło to utrudnienie, gdyż bez narzędzi stworzonych samodzielnie, storna wymagała stałego śledzenia kursu i dokonywania transakcji ręcznie. Konkurs zawierając w nazwie słowo _Hackathon_ stawiał wyzwanie stworzenia oprogramowania wspomagającego wykonywanie transakcji.
 
 ### Zespół WCY19WAT
 Zespół studentów z Wojskowej Akademi Technicznej WCY19WAT współtworzyli:
@@ -44,7 +44,7 @@ Symulacje przynosiły wynik w granicach 10-15% przychodu w ciągu tygodnia, wię
 Strategia ta operała się na obserwowaniu ruchu giełdowego na innych giełdach w czasie rzeczywistym. Kurs występujący na stronie [CoinGecko](https://www.coingecko.com/pl) był najbliższy temu z platformy konkursowej więc to on został zaimplementowany do logiki bota. Bot działał jedynie na wymianie walut Ethereum i USD gdyż uznaliśmy, że w tej walucie występują większe dobowe ruchy procentowe, a co za tym idzie większy dobowy przychód. 
 
 ##### Pierwszy napotkany problem - rozwiązanie
-Strategia miała jednak wady, gdyż zdarzały się sytuacje gdzie bot dokonywał nieopłacalnych transakcji. Zdarzało się to w sytuacji zawahań kursu na stronie [CoinGecko](https://www.coingecko.com/pl), które nie były wychwycone przez platformę konkursową. Poniżej załączam wykres kursu ETHUSD oraz punkt w którym bot nietrawnie dokonał zakupu tracąc 18,000$. 
+Strategia miała jednak wady, gdyż zdarzały się sytuacje gdzie bot dokonywał nieopłacalnych transakcji. Zdarzało się to w sytuacji zawahań kursu na stronie [CoinGecko](https://www.coingecko.com/pl), które nie były wychwycone przez platformę konkursową. Poniżej załączam wykres kursu ETH/USD oraz punkt w którym bot nietrawnie dokonał zakupu tracąc 18,000$. 
 
 ![Rysunek2](https://user-images.githubusercontent.com/71324202/140411355-80ba1d2b-5c85-4ed4-a0c2-f4d1a7dfab4b.png)
 
